@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust related to its borrowing system. The `bug.rs` file shows the error: attempting to create an immutable reference to a value after it has already been mutably borrowed. The `bugSolution.rs` file provides a solution by restructuring the code to avoid the conflicting borrows.
